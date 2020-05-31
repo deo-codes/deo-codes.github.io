@@ -1,0 +1,25 @@
+{
+  "name": "ltw-wrestling",
+  "version": "1.0.0",
+  "description": "A landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deo-codes/LTW-Wrestling.git"
+  },
+  "keywords": [
+    "Webpage"
+  ],
+  "author": "deo-codes  https://github.com/deo-codes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deo-codes/LTW-Wrestling/issues"
+  },
+  "homepage": "https://github.com/deo-codes/LTW-Wrestling#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0"
+  }
+}
