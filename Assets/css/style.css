@@ -34,6 +34,8 @@ body{
   justify-content: center;
 }
 
+
+
  .logo {
   line-height: 60px;
   position: fixed;
@@ -90,6 +92,23 @@ nav ul li a {
   color: #ffff00;
   display: none;
 }
+
+h1{
+  width: 94%;
+  margin: 4em auto;
+  font-size: 36px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.iframe-container{
+  position:center;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0px;
+}
+
+
 
 @media(max-width: 786px) {
 
