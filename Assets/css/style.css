@@ -146,6 +146,8 @@ nav ul li a {
 }
 
 
+
+
 .slideshow-item-text{
   max-width:50%;
   position: absolute;
@@ -221,6 +223,26 @@ nav ul li a {
   font-size:2rem;
 }
 
+.content-img img{
+  float: left;  
+  margin-right: 15px
+}
+
+@media only screen and  (max-width:730px){
+	.content-img img {
+		display:block;
+		float:none;
+		margin:0 auto 20px !important;
+	}
+}
+
+.container-txt p{
+  font-family:'Merriweather', serif;
+  text-align: justify; 
+  font-size: 25px;
+}
+
+
 
 
 .vidbox{
@@ -277,16 +299,93 @@ nav ul li a {
 }
 
 
-/*Media Queries for Poster Images*/
+.social-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.btn{
+  width:100px;
+  height:100px;
+  background-color: #fafafa;
+  display:flexbox;
+  align-items:center;
+  justify-content:center;
+  margin-left: 2em;
+  margin-right: 1em;
+  cursor:pointer;
+  transition: all 0.3s;
+  border-radius:10px;
 
 
+}
+
+i.fa{
+  font-size:44px;
+}
+
+#fb{
+  color: #006fff;
+  text-shadow: 0 0 30px #006fff;
+}
+
+#ig{
+  color: #ff5f40;
+  text-shadow: 0 0 30px #ff5f40;;
+}
+
+
+
+#twt{
+  color: #00acff;
+  text-shadow: 0 0 30px #00acff;
+}
+
+#yt{
+  color: #FF0000;
+  text-shadow: 0 0 30px #FF0000;
+}
+
+.btn.fb-btn{
+  box-shadow:0 20px 20px -17px rgba(0, 111, 255,0.53);
+}
+
+.btn.fb-btn:hover{
+  transform:scale(1.2);
+  box-shadow:0 30px 45px -15px rgba(0, 111, 255,0.65);
+}
+
+.btn.ig-btn{
+  box-shadow:0 20px 20px -17px rgba(255, 16, 39,0.5);
+}
+
+.btn.ig-btn:hover{
+  transform:scale(1.2);
+  box-shadow:0 30px 45px -15px rgba(255, 16, 39,0.57);
+}
+
+.btn.twt-btn{
+  box-shadow:0 20px 20px -17px rgba(0, 255, 255,0.53);
+}
+
+.btn.twt-btn:hover{
+  transform:scale(1.2);
+  box-shadow:0 30px 45px -15px rgba(0, 111,255,0.6);
+}
+
+.btn.yt-btn{
+  box-shadow:0 20px 20px -17px rgb(255,0,0);
+}
+
+.btn.yt-btn:hover{
+  transform:scale(1.2);
+  box-shadow:0 30px 45px -15px rgb(255,0,0);
+}
 
 /*Footer*/
-
-/*footer{*/
   
-
-
  
 .footer-distributed{
   position:relative;
