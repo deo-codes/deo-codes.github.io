@@ -189,7 +189,7 @@ nav ul li a {
   }
 }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:414px) and  (max-device-width:736px){
   .slideshow-item-text{
     max-width:100%;
     padding:2rem;
