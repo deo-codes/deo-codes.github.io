@@ -160,7 +160,7 @@ nav ul li a {
 }
 
 .slideshow-item-text h5{
-  font-size: 2rem;
+  font-size: 5rem;
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom: 2.5rem;
@@ -189,17 +189,33 @@ nav ul li a {
   }
 }
 
-@media screen and (max-width:414px) and  (max-device-width:736px){
+@media screen and (max-width:1000px){
   .slideshow-item-text{
-    max-width:100%;
-    padding:2rem;
-    top: initial;
-    bottom:0;
-    transform:initial;
+    max-width:70%;
+    padding:5rem 1rem;
+    
   }
 
   .slideshow-item-text h5{
-    font-size:2rem;
+    font-size:4rem;
+  }
+
+  
+
+}
+
+@media screen and (max-width:767px){
+  .slideshow-item-text{
+    max-width:100%;
+	padding:2rem;
+	top:initial;
+	bottom: 0;  
+	transform:initial;
+
+  }
+
+  .slideshow-item-text h5{
+    font-size:3rem;
   }
 
   .slideshow-item-text p{
