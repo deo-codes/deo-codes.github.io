@@ -249,7 +249,15 @@ nav ul li a {
 		float:none;
 		margin:0 auto 20px !important;
 	}
+	
+	.container-txt p{
+  		font-family:'Merriweather', serif;
+   
+  		font-size: 20px;
+
+
 }
+
 
 .container-txt p{
   font-family:'Merriweather', serif;
