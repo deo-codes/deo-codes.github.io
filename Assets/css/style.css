@@ -250,18 +250,11 @@ nav ul li a {
 		margin:0 auto 20px !important;
 	}
 	
-	.container-txt p{
-  		font-family:'Merriweather', serif;
-   
-  		font-size: 20px;
-
-
 }
 
 
 .container-txt p{
   font-family:'Merriweather', serif;
-  text-align: justify; 
   font-size: 25px;
 }
 
