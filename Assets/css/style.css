@@ -407,8 +407,7 @@ i.fa{
 
  
 .footer-distributed{
-	position: fixed;
-	left:0;
+	position: relative;
 	bottom:0;
 	background-color: #2c292f;
 	box-sizing: border-box;
