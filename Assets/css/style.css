@@ -404,18 +404,6 @@ i.fa{
 
 /*Footer*/
 
-footer{
-	position:relative;
-	width:100%;
-	height:auto;
-	padding:50px 100px;
-	display:flex;
-	justify-content:space-between;
-	flex-wrap:wrap;
-}
-	
-
-
  
 .footer-distributed{
 	position: relative;
