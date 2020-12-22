@@ -78,9 +78,7 @@ nav ul li a {
 
 /*Media Queries for Navigation Bars*/
 
-@media(min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3){
+@media(max-width: 786px){
 
   .logo {
         position: absolute;
