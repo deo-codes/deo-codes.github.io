@@ -1,0 +1,145 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+   font-family: 'Alfa Slab One', cursive;
+    font-weight: lighter;
+   background-image: url(Frff3Rl.jpg); 
+   background-size:cover;
+} 
+
+@media only screen and (max-device-width : 800px) {
+  body{
+    background-image:url(Frff3Rl.jpg);
+  }
+}
+
+.logo {
+  line-height: 60px;
+  position: absolute;
+  float: left;
+  margin: 16px 46px;
+
+}
+
+nav {
+  position: relative;
+  width: 100%;
+  line-height: 60px;
+  
+}
+
+nav ul {
+  line-height: 60px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow:hidden;
+  background: #000; 
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
+  
+}
+
+nav.black ul {
+  background: #000;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffff00;
+  font-size: 16px;
+}
+
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background: #000;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #ffff00;
+  display: none;
+}
+
+/*Media Queries for Navigation Bars*/
+
+@media(max-width: 786px) {
+
+  .logo {
+        position: absolute;
+        top: 0;
+        margin-top: 16px;
+  }
+
+  
+  nav ul {
+        max-height: 0px;
+        background: #000;
+  }
+
+  nav.black ul {
+        background: #000;
+  }
+
+  .showing {
+        max-height: 34em;
+  }
+
+  nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px;
+        text-align: center;
+  }
+
+  .menu-icon {
+        display: block;
+  }
+
+}
+
+header{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  text-align:center;
+  min-height: 100vh;
+  position:relative; 
+}
+ 
+ 
+
+ 
+
+
+ 
+
+  .content{
+    position:relative;
+  }
+  
+  .content h1{
+      color:#fff;
+      font-size:42px;
+      font-weight: 300;
+    }
+
+  
+
+  
+
+
