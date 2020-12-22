@@ -12,7 +12,9 @@ body{
    background-size:cover;
 } 
 
-@media only screen and (max-device-width : 800px) {
+@media only screen and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
   body{
     background-image:url(Frff3Rl.jpg);
   }
@@ -76,7 +78,9 @@ nav ul li a {
 
 /*Media Queries for Navigation Bars*/
 
-@media(max-width: 786px) {
+@media(min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3){
 
   .logo {
         position: absolute;
@@ -137,11 +141,37 @@ header{
       font-size:42px;
       font-weight: 300;
     }
+.button{
+  background-color: #E5411E; /*Red */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+ 
 
-  
 .button:hover{
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
   
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .content h1{
+      font-size:28px;
+      font-weight:150px;
+    }
+    
+    .content img{
+      width: 300px;
 
+}
 
