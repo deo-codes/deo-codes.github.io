@@ -1,7 +1,7 @@
 body{
   margin:0;
   padding:0;
-  font-family: 'Alfa Slab One', 'cursive';
+  font-family: 'Bangers', cursive;
 }
 html, body{
 	height:100%;	
@@ -51,7 +51,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #ffff00;
-  font-size: 16px;
+  font-size: 24px;
 }
 
 .menu-icon {
@@ -152,7 +152,7 @@ nav ul li a {
  
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 36px 'Alfa Slab One', cursive;
+	font: normal 36px  'Bangers', cursive;
 	margin: 0;
 }
  
