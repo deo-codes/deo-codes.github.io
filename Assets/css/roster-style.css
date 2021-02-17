@@ -2,8 +2,7 @@ body{
   
   margin:0 auto;
   padding:0;
-  font-family: 'Alfa Slab One', 'cursive';
-}
+  font-family: 'Bangers', cursive;
 
 /*Navigation Bar and Menu Icons */
 
@@ -100,6 +99,31 @@ nav ul li a {
 
 }
 
+.banner{
+  background:#cf352e;
+}
+
+.banner-content{
+  padding:32px;
+  max-width:500px;
+  margin:0 auto;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  
+}
+
+.banner-text h1{
+  line-height:1.4;
+  text-align:center; 
+  font-size:60px;
+  color:#ffff;
+ 
+}
+
+
+
+
 .roster-name{
   background-color: #000;
   padding: 10px;
@@ -126,13 +150,10 @@ nav ul li a {
 }
 
 
- h1{
-  text-align: center;
-  font-family: 'Merriweather', 'cursive';
-} 
+
 
  .roster-txt h2{
-   font-family: 'Alfa Slab One', 'cursive';
+    font-family: 'Bangers', cursive;
    color:#fff000;
    -webkit-transition: color .5s linear;
     -moz-transition: color .5s linear;
@@ -146,7 +167,7 @@ h2:hover{
 }
 
  .roster-txt p{
-   font-family:'Merriweather';
+    font-family: 'Open Sans', sans-serif;
   font-size: 25px;
  }
 
