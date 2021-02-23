@@ -1,0 +1,186 @@
+body{
+  
+  margin:0 auto;
+  padding:0;
+  font-family: 'Bangers', cursive;
+}
+
+/*Navigation Bar and Menu Icons */
+
+.logo {
+  line-height: 60px;
+  position: absolute;
+  float: left;
+  margin: 16px 46px;
+
+}
+
+nav {
+  position: relative;
+  width: 100%;
+  line-height: 60px;
+  
+}
+
+
+nav ul {
+  line-height: 60px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow:hidden;
+  background: #000; 
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
+  
+}
+
+nav.black ul {
+  background: #000;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffff00;
+  font-size: 24px;
+}
+
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background: #000;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #ffff00;
+  display: none;
+}
+
+/*Media Queries for Navigation Bars*/
+ 
+@media(max-width: 786px) {
+ 
+  .logo {
+        position: absolute;
+        top: 0;
+        margin-top: 16px;
+  }
+
+  
+  nav ul {
+        max-height: 0px;
+        background: #000;
+  }
+
+  nav.black ul {
+        background: #000;
+  }
+
+  .showing {
+        max-height: 34em;
+  }
+
+  nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px;
+        text-align: center;
+  }
+
+  .menu-icon {
+        display: block;
+  }
+
+}
+
+
+
+.banner{
+  background:#1BE2D9;
+}
+
+.banner-content{
+  padding:32px;
+  max-width:500px;
+  margin:0 auto;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  
+}
+
+.banner-text h1{
+  line-height:1.4;
+  text-align:center; 
+  font-size:60px;
+  color:#ffff;
+ 
+}
+
+.video {
+  background:#fff;
+  padding-bottom: 20px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+  width: 23%; /* Thumbnails 4 across */
+  margin: 1%;
+  float: left;
+}
+
+.video figure {
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+
+.video figure a {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  line-height: 0;
+}
+
+/* Media Queries - This is the responsive grid. */
+
+@media (max-width: 1024px) {
+  .video {
+    width: 31.333%; /* Thumbnails 3 across */
+  }
+}
+
+@media (max-width: 600px) {
+  .video {
+    width: 48%; /* Thumbnails 2 across */
+  }
+}
+
+@media (max-width: 360px) {
+  .video {
+    display: block;
+    width: 96%; /* Single column view. */
+    margin: 2%; /* The smaller the screen, the smaller the percentage actually is. */
+    float: none;
+  }
+}
+
+/* These are my preferred rollover styles. */
+
+.video img {
+  width: 100%;
+  opacity: 1;
+}
+
+.video img:hover, .video img:active, .video img:focus {
+  opacity: 0.75;
+}
+
+
+

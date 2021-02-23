@@ -1,0 +1,258 @@
+body{
+  
+  margin:0 auto;
+  padding:0;
+  font-family: 'Bangers', cursive;
+  overflow-x:hidden;
+}
+
+.logo {
+  line-height: 60px;
+  position: absolute;
+  float: left;
+  margin: 16px 46px;
+
+}
+
+nav {
+  position: relative;
+  width: 100%;
+  line-height: 60px;
+  
+}
+
+
+nav ul {
+  line-height: 60px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow:hidden;
+  background: #000; 
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
+  
+}
+
+nav.black ul {
+  background: #000;;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffff00;
+  font-size: 24px;
+}
+
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background: #000;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #ffff00;
+  display: none;
+}
+
+/*Media Queries for Navigation Bars*/
+ 
+@media(max-width: 786px) {
+ 
+  .logo {
+        position: absolute;
+        top: 0;
+        margin-top: 16px;
+  }
+
+  
+  nav ul {
+        max-height: 0px;
+        background: #000;
+  }
+
+  nav.black ul {
+        background: #000;
+  }
+
+  .showing {
+        max-height: 34em;
+  }
+
+  nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px;
+        text-align: center;
+  }
+
+  .menu-icon {
+        display: block;
+  }
+
+}
+
+
+
+
+
+
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.slide.current {
+  opacity: 1;
+}
+
+.slide .content {
+  position: absolute;
+  bottom: 70px;
+  left: -600px;
+  opacity: 0;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  padding: 35px;
+}
+
+.slide .content h1 {
+  margin-bottom: 10px;
+}
+
+.slide .content p {
+  font-family: 'Open Sans';
+}
+
+.slide.current .content {
+  opacity: 1;
+  transform: translateX(600px);
+  transition: all 0.7s ease-in-out 0.3s;
+}
+
+.buttons button#next {
+  position: absolute;
+  top: 40%;
+  right: 15px;
+}
+
+.buttons button#prev {
+  position: absolute;
+  top: 40%;
+  left: 15px;
+}
+
+.buttons button {
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  padding: 13px 15px;
+  border-radius: 50%;
+  outline: none;
+}
+
+.buttons button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+@media (max-width: 500px) {
+  .slide .content {
+    bottom: -300px;
+    left: 0;
+    width: 100%;
+  }
+
+  .slide.current .content {
+    transform: translateY(-300px);
+  }
+}
+
+/* Backgorund Images */
+ 
+.slide:first-child {
+  background: url('https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/123631660_119070713336827_2479765917114702009_o.jpg?_nc_cat=107&ccb=3&_nc_sid=e3f864&_nc_ohc=YiwZV2EAWz0AX8YwrR5&_nc_ht=scontent-iad3-1.xx&oh=3394741132aceb6ef43056b1a0cd2b6b&oe=604F03E8') no-repeat
+    center center/cover;
+}
+.slide:nth-child(2) {
+  background: url('https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/135682231_745117312779651_9152059037379351192_o.jpg?_nc_cat=110&ccb=3&_nc_sid=8bfeb9&_nc_ohc=mcOVmdX8mO8AX_URAVk&_nc_ht=scontent-iad3-1.xx&oh=e86f8540b5e3c07655049f52a1097330&oe=604F20A3') no-repeat
+    center top/cover;
+}
+.slide:nth-child(3) {
+  background: url('https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/146093805_3364548040316507_5967072638309562561_o.jpg?_nc_cat=109&ccb=3&_nc_sid=730e14&_nc_ohc=smeL0Cj6pEAAX_7hT9q&_nc_ht=scontent-iad3-1.xx&oh=18db926c1d189c68ef4f2d1196bb7d90&oe=604F1FEB') no-repeat
+    center center/cover;
+}
+.slide:nth-child(4) {
+  background: url('https://ltw-live.com/Assets/Images/LTW%20Gallery/No%20Resolution/81970225_10158144208018413_7877831715857629184_o.jpg') no-repeat
+    center top/cover;
+}
+.slide:nth-child(5) {
+  background: url('https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/152942832_3942722152413428_7255998781116080453_n.jpg?_nc_cat=107&ccb=3&_nc_sid=825194&_nc_ohc=rRZCWsPG4eoAX-h6LH7&_nc_ht=scontent-iad3-1.xx&oh=60d0ee5830acc6a9320a390b179e6edf&oe=60590A89') no-repeat
+    center top/cover;
+} 
+.slide:nth-child(6)  {
+  background: url('https://www.wallpapertip.com/wmimgs/8-89412_social-media-logos-3d.jpg') no-repeat
+    center center/cover;
+}
+
+.third{
+  background:#ffc62b;
+  padding: 50px;
+}
+
+
+
+.content-img img{
+  float: left;  
+  margin-right: 15px
+}
+
+@media only screen and  (max-width:730px){
+	.content-img img {
+		display:block;
+		float:none;
+		margin:0 auto 20px !important;
+	}
+	
+}
+
+.container-txt h1{
+  
+  color:#000;
+  font-size: 32px;
+}
+
+
+.container-txt p{
+  font-family:'Open Sans', cursive;
+  color:#000;
+  font-size: 25px;
+}
+
+.fourth{
+  background:#0a234a;
+  padding: 50px;
+}
