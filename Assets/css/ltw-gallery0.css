@@ -101,6 +101,8 @@ nav ul li a {
         display: block;
   }
 
+}
+
 @media(max-width: 936px) {
 
   .logo {
