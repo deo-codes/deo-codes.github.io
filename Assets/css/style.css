@@ -306,7 +306,7 @@ nav ul li a {
 #facebook-circle {
   
   transition: .2s all ease;
-  height: 80px;
+  height: 65px;
 }
 
 #facebook-circle:hover path {
@@ -315,7 +315,7 @@ nav ul li a {
 
 #twitter-circle {
   transition: .2s all ease;
-  height: 80px;
+  height: 65px;
 }
 
 #twitter-circle:hover path {
@@ -324,7 +324,7 @@ nav ul li a {
 
 #instagram-circle {
   transition: .2s all ease;
-  height: 80px;
+  height: 65px;
 }
 
 #instagram-circle:hover path {
@@ -333,7 +333,7 @@ nav ul li a {
 
 #youtube-circle {
   transition: .2s all ease;
-  height: 80px;
+  height: 65px;
 }
 
 #youtube-circle:hover path {
@@ -342,7 +342,7 @@ nav ul li a {
 
 #tiktok-circle {
   transition: .2s all ease;
-  height: 80px;
+  height: 65px;
 }
 
 #tiktok-circle:hover path {
