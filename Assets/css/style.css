@@ -228,15 +228,15 @@ nav ul li a {
 /* Backgorund Images */
  
 .slide:first-child {
-  background: url('https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/123631660_119070713336827_2479765917114702009_o.jpg?_nc_cat=107&ccb=3&_nc_sid=e3f864&_nc_ohc=YiwZV2EAWz0AX8YwrR5&_nc_ht=scontent-iad3-1.xx&oh=3394741132aceb6ef43056b1a0cd2b6b&oe=604F03E8') no-repeat
+  background: url('https://ibb.co/7Ymcvcg') no-repeat
     center center/cover;
 }
 .slide:nth-child(2) {
-  background: url('https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/135682231_745117312779651_9152059037379351192_o.jpg?_nc_cat=110&ccb=3&_nc_sid=8bfeb9&_nc_ohc=mcOVmdX8mO8AX_URAVk&_nc_ht=scontent-iad3-1.xx&oh=e86f8540b5e3c07655049f52a1097330&oe=604F20A3') no-repeat
+  background: url('https://ibb.co/LtKLRVT') no-repeat
     center top/cover;
 }
 .slide:nth-child(3) {
-  background: url('https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/146093805_3364548040316507_5967072638309562561_o.jpg?_nc_cat=109&ccb=3&_nc_sid=730e14&_nc_ohc=smeL0Cj6pEAAX_7hT9q&_nc_ht=scontent-iad3-1.xx&oh=18db926c1d189c68ef4f2d1196bb7d90&oe=604F1FEB') no-repeat
+  background: url('https://ibb.co/M6FkPgg') no-repeat
     center center/cover;
 }
 .slide:nth-child(4) {
