@@ -228,7 +228,7 @@ nav ul li a {
 /* Backgorund Images */
  
 .slide:first-child {
-  background: url('hhttps://i.ibb.co/nn433Wf/16195334042054810.jpg') no-repeat
+  background: url('https://i.ibb.co/nn433Wf/16195334042054810.jpg') no-repeat
     center center/cover;
 }
 .slide:nth-child(2) {
