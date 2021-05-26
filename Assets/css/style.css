@@ -241,14 +241,14 @@ nav ul li a {
 }
 .slide:nth-child(4) {
   background: url('https://i.ibb.co/SvRnpg6/16215184414548189.jpg') no-repeat
-    center center/cover;
+    center top/cover;
 }
 .slide:nth-child(5) {
   background: url('https://i.ibb.co/JtxR5hn/16196309930014212.jpg') no-repeat
     center top/cover;
 } 
 .slide:nth-child(6)  {
-  background: url('https://img.youtube.com/vi/cr1QylvWhaM/maxresdefault.jpg') no-repeat
+  background: url('https://img.youtube.com/vi/dL55TQ06sX4/maxresdefault.jpg') no-repeat
     center center/cover;
 }
 
