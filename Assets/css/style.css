@@ -228,11 +228,11 @@ nav ul li a {
 /* Backgorund Images */
  
 .slide:first-child {
-  background: url('https://i.ibb.co/cDGv9Vy/16222213932756966.jpg') no-repeat
+  background: url('https://i.ibb.co/rptjXFZ/16221431306432798.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(2) {
-  background: url('https://i.ibb.co/rptjXFZ/16221431306432798.jpg') no-repeat
+  background: url('https://i.ibb.co/cDGv9Vy/16222213932756966.jpg') no-repeat
     center center/cover;
 }
 .slide:nth-child(3) {
