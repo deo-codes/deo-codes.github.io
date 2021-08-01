@@ -1,4 +1,4 @@
- body{
+body{
   
   margin:0 auto;
   padding:0;
@@ -135,7 +135,6 @@ nav ul li a {
 
 }
 
-
 .banner{
   background:#0660BD;
 }
@@ -154,8 +153,58 @@ nav ul li a {
   line-height:1.4;
   text-align:center;
   font-size:45px;
-	color:#ffff;
+	color:#fff000;
+  
  
+}
+
+.profile-card {
+    text-align: center;
+    background: #02031e;
+    color: #fff;
+    margin: 16px 0;
+}
+
+.banner-image {
+    width:100%;
+}
+
+.profile-image {
+    border-radius: 50%;
+    max-width: 120px;
+    margin-top: -70px;
+    border: 1px solid;
+}
+
+.profile-info {
+    padding: 15px 10px;
+}
+
+.profile-info p {
+    font-size: 16px;
+    margin-top: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile-action {
+    padding-bottom: 25px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-action a {
+    color: #40e0d0;
+}
+
+.profile-action a:hover {
+    color: #ffffff;
+}
+
+.profile-card:hover .profile-image {
+    transform: scale(1.1);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
 }
 
 .roster-name{
@@ -205,12 +254,7 @@ h2:hover{
   font-size: 25px;
  }
 
- /*Footer*/
 
-
-
-
- 
 .footer-distributed{
 	position: relative;
 	bottom:0;
@@ -386,5 +430,3 @@ h2:hover{
 		margin-left: 0;
 	}
 }
-  
- 
