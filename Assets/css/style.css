@@ -232,8 +232,8 @@ nav ul li a {
     center center/cover;
 }
 .slide:nth-child(2) {
-  background: url('https://i.ibb.co/vXrPL6Z/IMG-0094.jpg') no-repeat
-    center center/cover;
+  background: url('https://i.ibb.co/WtnszCV/collage.jpg') no-repeat
+    center top/cover;
 }
 .slide:nth-child(3) {
   background: url('https://i.ibb.co/64MkPJN/16097817135654598.jpg') no-repeat
