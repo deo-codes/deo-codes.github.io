@@ -233,7 +233,7 @@ nav ul li a {
 }
 .slide:nth-child(2) {
   background: url('https://i.ibb.co/64MkPJN/16097817135654598.jpg') no-repeat
-    center center/cover;
+    center top/cover;
 }
 .slide:nth-child(3) {
   background: url('https://i.ibb.co/JtxR5hn/16196309930014212.jpg') no-repeat
