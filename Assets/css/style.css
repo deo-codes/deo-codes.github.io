@@ -228,29 +228,35 @@ nav ul li a {
 /* Backgorund Images */
  
 .slide:first-child {
-  background: url('https://i.ibb.co/4sYgScY/IMG-1049.jpg') no-repeat
+  background: url('https://i.ibb.co/Qf9NqRM/LTWSocial-Media-copy-1.jpg') no-repeat
     center center/cover;
 }
 .slide:nth-child(2) {
-  background: url('https://i.ibb.co/pWvbpcG/IMG-1893.jpg') no-repeat
+  background: url('https://i.ibb.co/4sYgScY/IMG-1049.jpg') no-repeat
     center center/cover;
 }
 .slide:nth-child(3) {
-  background: url('https://i.ibb.co/JtxR5hn/16196309930014212.jpg') no-repeat
+  background: url('https://i.ibb.co/pWvbpcG/IMG-1893.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(4) {
-  background: url('https://ltw-live.com/Assets/Images/LTW%20Gallery/Adrenaline%20Rush%202.0/15965157601992558.jpeg') no-repeat
+  background: url('https://i.ibb.co/JtxR5hn/16196309930014212.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(5) {
-  background: url('https://i.ibb.co/JzPqTrg/IMG-1626.jpg') no-repeat
+  background: url('https://ltw-live.com/Assets/Images/LTW%20Gallery/Adrenaline%20Rush%202.0/15965157601992558.jpeg') no-repeat
     center top/cover;
 } 
 .slide:nth-child(6)  {
+  background: url('https://i.ibb.co/JzPqTrg/IMG-1626.jpg') no-repeat
+    center center/cover;
+}
+
+.slide:nth-child(7)  {
   background: url('https://www.wallpapertip.com/wmimgs/8-89412_social-media-logos-3d.jpg') no-repeat
     center center/cover;
 }
+
 
 
 
