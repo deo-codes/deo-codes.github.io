@@ -228,34 +228,25 @@ nav ul li a {
 /* Backgorund Images */
  
 .slide:first-child {
-  background: url('https://i.ibb.co/7tJx84c/IMG-3434.png') no-repeat
+  background: url('https://i.ibb.co/9tXBwRg/LTWBasket-Case-Match-Cards.png') no-repeat
     center center/cover;
 }
 .slide:nth-child(2) {
-  background: url('https://i.ibb.co/GsXMYZY/y4mmu-Nh-V1-Jqt-Oys-RYs-Xk-OYUge-Pc-RBctfqxiko8-Uhw31-GZT6-M0-Leo-X8-Vw-SKRy2q-Qe-W-Px-YK5z5hb7we-Sv.jpg') no-repeat
+  background: url('https://i.ibb.co/JtxR5hn/16196309930014212.jpg') no-repeat
     center center/cover;
 }
 .slide:nth-child(3) {
-  background: url('https://i.ibb.co/9tXBwRg/LTWBasket-Case-Match-Cards.png') no-repeat
+  background: url('https://ltw-live.com/Assets/Images/LTW%20Gallery/Adrenaline%20Rush%202.0/15965157601992558.jpeg') no-repeat
     center top/cover;
 }
 .slide:nth-child(4) {
-  background: url('https://i.ibb.co/JtxR5hn/16196309930014212.jpg') no-repeat
+  background: url('https://i.ibb.co/qNDQJJR/LTWEvent-Cover-1.png') no-repeat
     center top/cover;
 }
 .slide:nth-child(5) {
-  background: url('https://ltw-live.com/Assets/Images/LTW%20Gallery/Adrenaline%20Rush%202.0/15965157601992558.jpeg') no-repeat
+  background: url('https://i.ibb.co/MsGgvnV/LTWSocial-Ad.png') no-repeat
     center top/cover;
 } 
-.slide:nth-child(6)  {
-  background: url('https://i.ibb.co/qNDQJJR/LTWEvent-Cover-1.png') no-repeat
-    center center/cover;
-}
-
-.slide:nth-child(7)  {
-  background: url('https://i.ibb.co/5Bmwf0p/y4mrz-Im8-Hvh7i-W2-Qtyfx-Ncim-YN5n-BQBAh-RHs-Mv-Sb-C4-Rpmu5-J8-DHrg-WS0bek-KZApq-Q9-Nnocv-RGNY1-DV5.jpg') no-repeat
-    center center/cover;
-}
 
 
 
