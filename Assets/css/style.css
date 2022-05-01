@@ -81,7 +81,7 @@ header.sticky ul li a{
   width:100%;
   min-height: 100vh;
   
-  background: url('https://i.ibb.co/jG62Mhq/LTWSocial-Media-1.png'); 
+  background: url('https://i.postimg.cc/fTvwxfZg/LTWUnderground-Match-Cards-2.png'); 
   background-size:cover;
   background-position:top;
   display:flex;
@@ -564,6 +564,21 @@ footer .mini-footer p{
   }
 }
 
+@media(max-width:989px){
+  .banner{
+   position: relative;
+  width:100%;
+  min-height: 100vh;
+  background: url('https://i.postimg.cc/hvfVXNsW/Untitled-Design.png'); 
+  background-size:cover;
+  background-position:top;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  
+  }
+}
+
 @media(max-width:900px){
   .footer-wiget .footer-content{
     width:calc(100% / 2 -20px);
@@ -599,6 +614,36 @@ footer .mini-footer p{
     width:100%;
     margin-bottom:30px;
     text-align:center;
+  }
+}
+
+@media(max-width:685px){
+  .banner{
+   position: relative;
+  width:100%;
+  min-height: 100vh;
+  background: url('https://i.postimg.cc/hvfVXNsW/Untitled-Design.png'); 
+  background-size:cover;
+  background-position:top;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  
+  }
+}
+
+@media(max-width:610px){
+  .banner{
+   position: relative;
+  width:100%;
+  min-height: 100vh;
+  background: url('https://i.postimg.cc/fRt522GR/LTWPoster-Ad.png'); 
+  background-size:cover;
+  background-position:top;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  
   }
 }
 
